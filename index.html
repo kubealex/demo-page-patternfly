@@ -2,61 +2,62 @@
 <html>
 <head>
     <title>Patternfly Quickstart</title>
-  
+
     <!-- PatternFly Styles -->
     <link rel="stylesheet" href="node_modules/@patternfly/patternfly/patternfly.min.css" type="text/css">
     <link rel="stylesheet" href="node_modules/@patternfly/patternfly/patternfly-addons.css" type="text/css">
-  
+
     <!-- Bootstrap base + PatternFly extensions + Your styles -->
     <!-- <link rel="stylesheet" href="css/mystyles.css"> -->
     </head>
 <body>
-    <div class="pf-c-page">
-        <aside class=".pf-c-page__sidebar">
-            <div class=".pf-c-page__sidebar-body">
-                <nav class="pf-c-nav" aria-label="Global">
-                    <ul class="pf-c-nav__list">
-                      <li class="pf-c-nav__item">
-                        <a href="#" class="pf-c-nav__link">Link 1</a>
-                      </li>
-                      <li class="pf-c-nav__item">
-                        <a
-                          href="#"
-                          class="pf-c-nav__link pf-m-current"
-                          aria-current="page"
-                        >Current link</a>
-                      </li>
-                      <li class="pf-c-nav__item">
-                        <a href="#" class="pf-c-nav__link">Link 3</a>
-                      </li>
-                      <li class="pf-c-nav__item">
-                        <a href="#" class="pf-c-nav__link">Link 4</a>
-                      </li>
-                    </ul>
-                  </nav>
-            </div>
-        </aside>
-        <header class="pf-c-page__header">
-          <div class="pf-c-page__header-brand">
-            <div class="pf-c-page__header-brand-toggle">toggle</div>
-            <a href="#" class="pf-c-page__header-brand-link">Logo</a>
-          </div>
-          <div class="pf-c-page__header-tools">header-tools</div>
-        </header>
-        <main class="pf-c-page__main" tabindex="-1">
-          <section class="pf-c-page__main-section pf-m-limit-width pf-m-align-center">
-            <div class="pf-c-page__main-body">
-              <div class="pf-c-card">
-                <div class="pf-c-card__body">
-                  When a width limited page section is wider than the value of
-                  <code>--pf-c-page--section--m-limit-width--MaxWidth</code>, the section will be centered in the main section.
-                  <br />
-                  <br />The content in this example is placed in a card to better illustrate how the section behaves when it is centered. A card is not required to center a page section.
-                </div>
-              </div>
-            </div>
-          </section>
-        </main>
+  <div class="pf-c-page">
+    <header class="pf-c-page__header">
+      <div class="pf-c-page__header-brand">
+        <div class="pf-c-page__header-brand-toggle">toggle</div>
+        <a href="#" class="pf-c-page__header-brand-link">Logo</a>
       </div>
+      <div class="pf-c-page__header-tools">header-tools</div>
+    </header>
+    <div class="pf-c-page__sidebar">
+      <div class="pf-c-page__sidebar-body">
+        <nav class="pf-c-nav" aria-label="Global">
+          <ul class="pf-c-nav__list">
+            <li class="pf-c-nav__item">
+              <a href="#" class="pf-c-nav__link">Link 1</a>
+            </li>
+            <li class="pf-c-nav__item">
+              <a
+                href="#"
+                class="pf-c-nav__link pf-m-current"
+                aria-current="page"
+              >Current link</a>
+            </li>
+            <li class="pf-c-nav__item">
+              <a href="#" class="pf-c-nav__link">Link 3</a>
+            </li>
+            <li class="pf-c-nav__item">
+              <a href="#" class="pf-c-nav__link">Link 4</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+    <main class="pf-c-page__main" tabindex="-1">
+      <section class="pf-c-page__main-section pf-m-limit-width pf-m-align-center">
+        <div class="pf-c-page__main-body">
+          <div class="pf-c-card">
+            <div class="pf-c-card__body">
+              When a width limited page section is wider than the value of
+              <code>--pf-c-page--section--m-limit-width--MaxWidth</code>, the section will be centered in the main section.
+              <br />
+              <br />The content in this example is placed in a card to better illustrate how the section behaves when it is centered. A card is not required to center a page section.
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+  </div>
+
 </body>
 </html>
